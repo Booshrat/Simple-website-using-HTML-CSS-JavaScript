@@ -1,0 +1,222 @@
+/* Selects all elements */
+*{
+    box-sizing: content-box;
+}
+
+/* Element Selectors. */
+body {
+    display: grid;    
+}
+main {
+    background-color: #f7ede2;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 8px 0 16px;
+    height: 15px;
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+}
+
+/* Class Selectors. */
+/* Navigation Bar */
+.navbar {
+    font-family: 'Ubuntu';
+    background-color: #fff1e6;
+}
+.contact-us {
+    padding: 15px 30px 20px;
+}
+.contact-us > input {
+    margin-bottom: 10px;
+}
+
+/* Changes style of the header image. */
+.header-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Introduction section */
+.intro {
+    background-color: #e6ccb2;
+}
+.intro-text {
+    padding: 5%;
+    text-align: justify;
+}
+
+/* Top Seller Section */
+.table-heading {
+    font-weight: bold;
+    padding: 2%;
+}
+
+/* Testimonial Section */
+.testimonials {
+    background-color: #7f5539;
+    color: #fff;
+    height: 450px;
+}
+.testimonial-text {
+    font-size: 2rem;
+    line-height: 1.5;
+    padding: 6%;
+}
+.testimonial-image {
+    border-radius: 100%;
+    margin-bottom: 3%;
+    width: 7%;
+}
+
+/* Comments Section */
+.leave-comment {
+    text-align: justify;
+    margin: auto;
+    padding: 30px;
+    width: 60%;
+}
+.comment-title {
+    margin: 0 10px;
+}
+#name {
+    margin: 10px;
+    border: 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#comment-input {
+    margin-left: 10px;
+    border: 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+}
+.comment-btn {
+    margin-left: 10px;
+}
+#comments {
+    width: 60%;
+    margin: auto;
+}
+.commented-section {
+    text-align: left;
+    background-color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.user-name {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.comment-text {
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+/* About Page */
+.about{
+    background-color: #e6ccb2;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.heading {
+    padding: 8% 5% 2% 5%;
+
+}
+.about-text {
+    padding: 0 5% 5%;
+    width: 70%;
+    text-align: justify;
+    margin: auto;
+}
+.about-image {
+    border: #fff solid .2rem;
+}
+.img-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+  
+/* Create four equal columns that sits next to each other */
+.img-col {
+    flex: 25%;
+    max-width: 50%;
+    padding: 0 4px;
+    margin: 2%;
+    
+}
+.img-col img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 70%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+.img-col {
+    flex: 50%;
+    max-width: 50%;
+}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.img-col {
+    flex: 100%;
+    max-width: 100%;
+}
+}
+
+/* Newsletter Page*/
+.newsletter {
+    background-color: #e6ccb2;
+    padding: 5vw;
+}
+.logo {
+    width: 15%;
+    height: auto;
+    margin-bottom: 5%;
+    padding-top: 8%;
+}
+.signup {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+.preference {
+    margin: 5vh auto;
+    text-align: left;
+    width: 50%;
+}
+
+/* Hand-Crafted-Item Page */
+
+.handi-craft {
+    background-color: #e6ccb2;
+}
+.card-row {
+    margin-left: 6%;
+}
+.each-card {
+    margin-bottom: 25px;
+}
+.item-img {
+    height: 200px;
+}
+.item-description {
+    font-size: 12px;
+    text-align: left;
+}
+.like-button {
+    cursor: pointer;
+    color: #c4915e;
+    margin-left: 10px;
+}
+.liked {
+    color: black;
+}
