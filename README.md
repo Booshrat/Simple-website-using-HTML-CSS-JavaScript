@@ -21,11 +21,11 @@ You can do this by clicking the green "Code" button and selecting "Download ZIP"
 git clone https://github.com/Booshrat/finalCapstone
 ```
 ## Usage
+<img align="right" height="300px" src="https://github.com/Booshrat/finalCapstone/blob/master/screenshot.jpg" />
 Once you have the project files on your local machine, you can open the index.html file in your web browser to view the web page. 
 The CSS and javaScript files are linked to the HTML file. You can edit these files to customize the appearance and functionality of the page by opening 
-with a code editor such as Visual Studio Code or Atom. All HTML files except index.html (Home page) are located in the _other HTML files_ folder and all javaScript, CSS
-files and images can be found in different folders.
-
-
+with a code editor such as Visual Studio Code or Atom. All HTML files except index.html (Home page) are located in the _other HTML files_ folder and all javaScript, CSS files and images can be found in different folders.
+<br />
+<br />
 This project includes a basic layout and some sample HTML elements, as well as some basic CSS styling and JavaScript functionality. 
 Feel free to modify or build upon this project to suit your needs!
